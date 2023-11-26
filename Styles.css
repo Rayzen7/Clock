@@ -110,7 +110,7 @@ p {
     color: var(--primary-color);
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 600px) {
     .navbar {
       padding: 10px;
       margin-left: -10px;
@@ -145,14 +145,14 @@ p {
     }
 
     .background {
-        width: 300%;
-        height: 300%;
-        bottom: -100%;
-        right: -120%;
-        object-fit: cover;
-        min-width: 100%;
-        min-height: 100%;
-        position: fixed;
+            width: 200%;
+            height: 200%;
+            bottom: -60%;
+            right: -60%;
+            object-fit: cover;
+            min-width: 100%;
+            min-height: 100%;
+            position: fixed;
     }
 
     a li:hover {
