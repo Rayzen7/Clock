@@ -145,11 +145,8 @@ p {
     }
 
     .background {
-        display: flex;
-        justify-content: center;
-        position: fixed;
-        width: 400%;
-        height: 400%;
+        width: 300%;
+        height: 300%;
         bottom: -100%;
         right: -120%;
         object-fit: cover;
