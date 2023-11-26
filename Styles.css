@@ -145,8 +145,8 @@ p {
     }
 
     .background {
-        width: 300%;
-        height: 300%;
+        width: 400%;
+        height: 400%;
         bottom: -100%;
         right: -120%;
         object-fit: cover;
