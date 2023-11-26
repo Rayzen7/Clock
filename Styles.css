@@ -120,11 +120,7 @@ p {
       margin-left: 10px;
       font-size: 18px;
     }
-
-    .background {
-    scale: 100%;
-    }
-  
+    
     ul {
       margin-right: 10px;
     }
@@ -153,6 +149,10 @@ p {
         height: 300%;
         bottom: -100%;
         right: -120%;
+        object-fit: cover;
+        min-width: 100%;
+        min-height: 100%;
+        position: fixed;
     }
 
     a li:hover {
