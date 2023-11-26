@@ -110,59 +110,7 @@ p {
     color: var(--primary-color);
 }
 
-@media only screen and (max-width: 600px) {
-    .navbar {
-      padding: 10px;
-      margin-left: -10px;
-    }
 
-    .background {
-        scale: 150%;
-    }
-  
-    .logo {
-      margin-left: 10px;
-      font-size: 18px;
-    }
-  
-    ul {
-      margin-right: 10px;
-    }
-  
-    li {
-      margin-left: 10px;
-      font-size: 12px;
-    }
-  
-    .container {
-      width: 80%;
-      margin: 80px auto;
-      margin-top: 130px;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    p {
-        font-size: 15px;
-    }
-
-    .background {
-            width: 200%;
-            height: 200%;
-            bottom: -60%;
-            right: -60%;
-            object-fit: cover;
-            min-width: 100%;
-            min-height: 100%;
-            position: fixed;
-    }
-
-    a li:hover {
-        color: var(--primary-color);
-    }   
-  
     #clock {
       padding: 10px 20px;
       font-size: 24px;
