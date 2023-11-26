@@ -120,6 +120,10 @@ p {
       margin-left: 10px;
       font-size: 18px;
     }
+
+    .background {
+    scale: 100%;
+    }
   
     ul {
       margin-right: 10px;
