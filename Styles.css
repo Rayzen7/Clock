@@ -110,7 +110,7 @@ p {
     color: var(--primary-color);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .navbar {
       padding: 10px;
       margin-left: -10px;
@@ -122,7 +122,7 @@ p {
     }
 
     .background {
-    scale: 120%;
+    scale: 100%;
     }
   
     ul {
