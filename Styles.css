@@ -29,10 +29,12 @@ body {
     position: fixed;
     right: 0;
     top: -10%;
+    background-repeat: no-repeat;
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
+    scale: 100%;
     z-index: -1;
 }
 
@@ -110,10 +112,33 @@ p {
     color: var(--primary-color);
 }
 
-
+/* Media query untuk perangkat dengan lebar maksimum 600px (handphone) */
+@media only screen and (max-width: 600px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      margin-left: -30px;
+    }
+  
+    .background {
+      top: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      scale: 300%;
+    }
+  
+    .container {
+      width: 90%;
+      margin: 190px auto;
+      bottom: ;
+    }
+  
     #clock {
-      padding: 10px 20px;
-      font-size: 24px;
+      padding: 15px 20px;
+      font-size: 30px;
     }
   }
   
