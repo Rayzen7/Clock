@@ -113,7 +113,7 @@ p {
 }
 
 /* Media query untuk perangkat dengan lebar maksimum 600px (handphone) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -127,7 +127,11 @@ p {
       object-fit: cover;
       width: 100%;
       height: 100%;
-      scale: 370%;
+      scale: 400%;
+    }
+
+    li a {
+     font-size: 12px;   
     }
   
     .container {
@@ -141,4 +145,3 @@ p {
       font-size: 30px;
     }
   }
-  
