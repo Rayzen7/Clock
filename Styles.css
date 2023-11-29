@@ -133,13 +133,12 @@ p {
 
     a li {
      font-size: 13px;
-     left: -30px;  
+     left: -10%;  
     }
   
     .container {
       width: 90%;
       margin: 190px auto;
-      bottom: ;
     }
   
     #clock {
