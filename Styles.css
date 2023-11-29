@@ -113,7 +113,7 @@ p {
 }
 
 /* Media query untuk perangkat dengan lebar maksimum 600px (handphone) */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 600px) {
     .navbar {
       display: flex;
       justify-content: space-between;
