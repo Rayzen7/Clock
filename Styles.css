@@ -119,7 +119,7 @@ p {
       justify-content: space-between;
       align-items: center;
       text-align: center;
-      margin-left: -20px;
+      margin-left: -30px;
       width: 100%;
       overflow: hidden;
     }
@@ -133,8 +133,8 @@ p {
     }
 
     a li {
-     font-size: 10px;
-     margin-left: 5px;  
+     font-size: 14px;
+     margin-left: 9px;  
     }
   
     .container {
