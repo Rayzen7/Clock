@@ -132,7 +132,7 @@ p {
       scale: 400%;
     }
 
-    a li {
+    .navbar a li {
      font-size: 14px;
      margin-left: 5px;  
     }
