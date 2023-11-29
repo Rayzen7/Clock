@@ -132,7 +132,8 @@ p {
     }
 
     a li {
-     font-size: 13px;   
+     font-size: 13px;
+     left: -4px;  
     }
   
     .container {
