@@ -120,8 +120,7 @@ p {
       align-items: center;
       text-align: center;
       margin-left: -30px;
-      width: 100%;
-      overflow: visible; 
+      padding: 20px;
     }
   
     .background {
