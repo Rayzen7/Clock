@@ -136,6 +136,10 @@ p {
      font-size: 15px;
      margin-left: 5px;  
     }
+
+    li a {
+        font-size: 15px
+    }
   
     .container {
       width: 90%;
